@@ -311,7 +311,9 @@ Chrome的开发者工具栏有个类似的面板，但你必须首先激活它�
 **减少合成层的大小**
 
 看下面两张图，看到区别了吗？
+
 <iframe src="https://sergeche.github.io/gpu-article-assets/examples/layer-size.html" height="130" frameborder="no" allowtransparency="true" style="width: 100%;"></iframe>
+
 这两个合成层**从视觉上来看是一样的**，但第一个有40，000字节（30KB），第二个仅仅400字节——小了100倍。为什么？看下代码：
 ```html
 <div id="a"></div>
