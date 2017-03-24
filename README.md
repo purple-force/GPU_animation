@@ -39,8 +39,8 @@
  z-index: 1;
 }
 </style>
-<div id="#a">A</div>
-<div id="#b">B</div>
+<div id="a">A</div>
+<div id="b">B</div>
 ```
 <iframe src="https://sergeche.github.io/gpu-article-assets/examples/example1.html" height="280" frameborder="no" allowtransparency="true" style="width: 100%;"></iframe>
 
@@ -70,8 +70,8 @@
  to { left: 100px; }
 }
 </style>
-<div id="#a">A</div>
-<div id="#b">B</div>
+<div id="a">A</div>
+<div id="b">B</div>
 ```
 <iframe src="https://sergeche.github.io/gpu-article-assets/examples/example1.html#.a:anim-left" height="280" frameborder="no" allowtransparency="true" style="width: 100%;"></iframe>
 
@@ -112,8 +112,8 @@
  to { transform: translateX(70px); }
 }
 </style>
-<div id="#a">A</div>
-<div id="#b">B</div>
+<div id="a">A</div>
+<div id="b">B</div>
 ```
 
 此处，我们以**声明**的方式描述动画：起始位置，结束位置，持续时间等。这等于提前告诉浏览器哪些CSS属性会更新。因为浏览器发现没有属性会造成回流或者重绘，它就会采用合成优化：画两幅图像作为**合成层**，之后发送到GPU。
